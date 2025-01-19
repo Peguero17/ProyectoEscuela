@@ -1,6 +1,8 @@
 ﻿public class Persona
 {
     public String Nombre { get; set; }
+    public String Cedula { get; set; }  
+    public DateTime FechaNacimiento { get; set; }
 }
 
 public class Estudiante : Persona
